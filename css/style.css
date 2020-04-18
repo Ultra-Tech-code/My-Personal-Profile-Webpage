@@ -1,0 +1,252 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling*/
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+.minimize-edge{
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px, 0;
+}
+
+
+
+
+/*Navbar*/
+#navbar{
+  background-color: #333;
+  color: #fff;
+  overflow: auto;
+  font-weight: bold;
+}
+
+#navbar a {
+  color: #fff;
+
+}
+
+#navbar h1{
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul{
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li{
+  float: left;
+}
+
+#navbar ul li a{
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#navbar ul li a:hover{
+  background: #444;
+  color: #888786
+
+}
+
+#navbar a.active{
+  border: 3px solid #6b6a69;
+}
+
+/*MainPage*/
+#Mainpage{
+  background: url('../image/background.jpg');
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  color: azure;
+  text-align: center;
+  padding-top: 250px;
+  
+}
+.container h1{
+  font-size: 60px;
+  line-height: 1.2em;
+
+}
+.container p{
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+.btn{
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+}
+
+.btn:hover {
+  background: #6b6a69;
+  color: #333;
+}
+
+.startlink{
+  display: inline-block;
+  font-size: 20px;
+  color: lightblue;
+  border: none;
+}
+.startlink:hover{
+  color: darkblue;
+
+}
+
+/*About*/
+#about{
+  height: 900px;
+  background-color: rgb(48, 105, 105);
+}
+.box-up{
+  width: 50%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+#about img{
+  float:left;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed, scroll, fixed;
+  min-height: 100%;
+  height: 500px;
+}
+#about .about-left{
+  float:right;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  padding: 30px 20px;
+  overflow: hidden;
+  background: #444;
+  color: azure;
+}
+
+#about .about-left h1{
+  background: rgb(104, 102, 102);
+  color: rgb(221, 224, 224);
+  font-size: 40px;
+
+}
+.about-down{
+  font-size: 20px;
+  color: azure;
+  font-size: 20px;
+  
+}
+#box-down{
+  width: 100%;
+  height: 450px;
+  padding-top: 40px;
+}
+
+
+
+
+/*Contact form*/
+#contact-form{
+  background: url('../image/contact.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.contact-head{
+  padding: 30px 0;
+}
+.l-heading{
+  font-size: 60px;
+  text-align: center;
+  color: antiquewhite;
+}
+.l-p{
+  font-size: 20px;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+.bg-black{
+  background-color: #444;
+  color: azure;
+  font-size: 20px;
+  line-height: 1.2em;
+}
+
+#contact-form .form-group{
+  margin-bottom: 20px;
+}
+#contact-form label{
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#contact-form input, 
+#contact-form textarea{
+  background-color: #f1f1f1;
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid
+}
+
+#contact-form input:focus, 
+#contact-form textarea:focus{
+  background-color: #EDF2F7;
+}
+
+#contact-form textarea{
+  height: 200px;
+}
+
+.box{
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center; 
+}
+
+.box i{
+  margin-bottom: 10px;
+}
+
+
+/* main-footer*/
+#main-footer{
+  padding: 10px;
+  text-align: center;
+  background: #333;
+  color: azure;  
+}
